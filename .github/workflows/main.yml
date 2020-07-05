@@ -24,7 +24,7 @@ jobs:
 
 
     # Runs a set of commands using the runners shell
-    - name: Build
+    - name: Build The Project
       run: |
         curl 'https://app.yonohub.com/api/yonoarc/blockbuilder/projects/5efdd139593bcb8f376d613d/build' \
         -H 'authority: app.yonohub.com' \
