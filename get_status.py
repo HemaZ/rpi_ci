@@ -18,7 +18,7 @@ if __name__ == "__main__":
     print(project_name)
 
     while(status == "waiting" or status == "building"):
-        time.sleep(1)
+        time.sleep(5)
         data = get_status()
         for project in data['projects']:
             if project['name'] == project_name:
